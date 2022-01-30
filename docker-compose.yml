@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  gotty:
+    build: ./
+    image: atareao/gotty:v1.0
+    container_name: gotty
+    ports:
+      - "3000:3000"
